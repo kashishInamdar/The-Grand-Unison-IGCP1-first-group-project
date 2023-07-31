@@ -12,11 +12,26 @@ body
    
 }
 .main-image{
-    background-image:url(../images/haldi/Yellow-Haldi-Dress-for-Bride.jpg);
+
+background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url('../images/haldi/Yellow-Haldi-Dress-for-Bride.jpg');
+
     background-repeat: no-repeat;
+    opacity: 0.9;
     background-size: 1320px 800px ;
-    display: flex;
-    height: 40rem;
+    height: 800px;
+}
+.main-heading
+{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 55px;
+    position: relative;
+    top: 20px;
+}
+.haldi-img
+{
+    
 }
 .pakeges-name
 {
