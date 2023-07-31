@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    height: 60px;
+}
+body
+{
+    background-color: #f9ebee;
+   
+}
+.main-image{
+    background-image:url(../images/haldi/Yellow-Haldi-Dress-for-Bride.jpg);
+    background-repeat: no-repeat;
+    background-size: 1320px 800px ;
+    display: flex;
+    height: 40rem;
+}
+.pakeges-name
+{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 2px silver;
+}
+.pakeges
+{
+ display: flex;
+ justify-content:space-evenly;
+ 
+}
+.pakeges-card
+{
+    height: 400px;
+    width: 350px;
+    background-color: #ffcce6;
+    background-image:url(../images/bg-img2.jpg) ;
+    border-radius: 10px;
+    
+
+
+}
+.highlight{
+    color: #ff33cc;
+}
