@@ -6,7 +6,7 @@
 {
     position: relative;
 }
-body 
+.body1 
 {
     background-color: #e6b6bc;
 }
@@ -20,6 +20,10 @@ body
     background-size: 1320px 800px;
     height: 600px;
     margin-top: 70px;
+}
+body 
+{
+    background-color: #e6b6bc;
 }
 
 .main-flex {
@@ -109,15 +113,79 @@ body
     
     
 }
+.contain-img-div
+{
+    background-color: white;
+    padding: 3px;
+}
 .contain-div
 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-.deco-img1
-{
-    height: 200px;
-    width: 150px;
 
+.services-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin-top: 60px;
+    border: 1px solid #ff0066;
+    padding: 10px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 3px #ff99c2;
+}
+.decora-image {
+    height: 250px;
+    width: 280px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.card-title {
+    text-align: center;
+    margin-top: 20px;
+}
+.btn {
+    font-size: 15px;
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    background-color: #ff0066;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.collage-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 120px;
+}
+.collage-video
+{
+    border: 1px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+    height: 500px;
+    width: 280px;
+    margin-top: 40px;
+   
+}
+.collage-img
+{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 25px;
+    border: 1px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
 }
