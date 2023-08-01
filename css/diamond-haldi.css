@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.main-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+        url('../images/Haldi-Blog-Banner.jpeg');
+    background-size: cover;
+    border: 1px solid black;
+    opacity: 0.9;
+    height: 600px;
+    width: 100%;
+    margin-top: 70px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+body {
+    background-color: #e6b6bc;
+}
+
+.heading-text {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 60px;
+}
+
+.heading-text-1 {
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: gabriola;
+}
+
+
+.sub-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 120px;
+}
+
+
+/*
+    .heading-text-1 {
+        font-size: 80px;
+        margin-top: 20px;
+        font-family: gabriola;
+    }
+    
+
+}*/
+
+.halad-img {
+    height: 350px;
+    width: 450px;
+    border: 1px solid #ffff66;
+    border-radius: 15px;
+    box-shadow: 0px 3px 3px 3px #ffffb3;
+
+}
+
+.halad-img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+    box-shadow: 5px 5px 20px 3px rgb(6, 6, 6);
+}
+
+.services-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin-top: 60px;
+    border: 1px solid #ff0066;
+    padding: 10px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 3px #ff99c2;
+}
+
+.diamond-text {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.decora-image {
+    height: 250px;
+    width: 280px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.card-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    font-size: 15px;
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    background-color: #ff0066;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.dia-text {
+    color: #ff0066;
+
+}
+
+.pack-text {
+    color: white;
+}
