@@ -1,63 +1,123 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-nav
+.pos-rilativ
 {
-    height: 60px;
+    position: relative;
 }
-body
+body 
 {
-    background-color: #f9ebee;
-   
+    background-color: #e6b6bc;
 }
-.main-image{
 
-background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url('../images/haldi/Yellow-Haldi-Dress-for-Bride.jpg');
+.main-image {
 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+     url('../images/haldi/Yellow-Haldi-Dress-for-Bride.jpg');
     background-repeat: no-repeat;
     opacity: 0.9;
-    background-size: 1320px 800px ;
-    height: 800px;
+    background-size: 1320px 800px;
+    height: 600px;
+    margin-top: 70px;
 }
-.main-heading
-{
+
+.main-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 120px;
+}
+
+.main-heading {
     color: white;
     text-align: center;
     text-shadow: 2px 2px black;
-    font-size: 55px;
-    position: relative;
-    top: 20px;
+    font-size: 50px;
+    top: 40px;
 }
-.haldi-img
-{
-    
+.haldi-img {
+    border: 1px solid ffff66;
+    border-radius: 15px;
+    height: 300px;
+    box-shadow: 0 3px 3px 3px #ffffb3;
 }
-.pakeges-name
+.haldi-img:hover
 {
+    transform: scale(1.1);
+    transition: 2s;
+    box-shadow: 2px 2px 2px 2px silver;
+}
+
+.haldi-quotes {
+    color: white;
     text-align: center;
     font-size: 40px;
-    color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-family: gabriola;
+    width: 500px;
+}
+
+.pakeges-name {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 3px 2px silver;
 }
-.pakeges
-{
- display: flex;
- justify-content:space-evenly;
- 
+
+.pakeges {
+    display: flex;
+    justify-content: space-evenly;
+
 }
-.pakeges-card
-{
+.pakeges-card {
     height: 400px;
     width: 350px;
-    background-color: #ffcce6;
-    background-image:url(../images/bg-img2.jpg) ;
+    background-color: rgb(249 208 214);
+    background-image: url("../images/haldi/card-bg2.jpg");
+    background-size: 180% 100%;
     border-radius: 10px;
-    
-
-
 }
-.highlight{
+.highlight {
     color: #ff33cc;
+}
+.icons
+{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+}
+.pakeges-heading
+{
+    top: 40px;
+    padding: 20px;
+}
+.paregraph
+{
+    padding: 20px;
+    top: 80px;
+    font-size: 20px;
+}
+.contain-img
+{
+    height: 200px;
+    width:300px ;
+    
+    
+}
+.contain-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.deco-img1
+{
+    height: 200px;
+    width: 150px;
+
 }
