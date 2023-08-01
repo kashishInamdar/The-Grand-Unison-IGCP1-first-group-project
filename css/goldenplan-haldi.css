@@ -326,7 +326,7 @@
  .photo-col {
     height: 37rem;
     color: aqua;
-    background-color: rgb(245, 243, 243);
+    background-color: rgb(248, 248, 248);
     background-position: center;
     background-size: cover;
     border-radius: 15px;
@@ -359,4 +359,47 @@
  /* ---------------------section
  jwellery--------------------------- */
  
+ /* ----------------section mehendi------------------------------ */
+ .f-change{
+   font-family: 'Dancing Script', cursive;
+}
+.main-container-m{
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   margin-right: 300px;
+   /* flex-wrap: wrap; */
+   
+}
+.sub-container-m{
+   height: 330px;
+   width: 400px;
+   background-color: white;
+   border-radius: 5px;
  
+}
+.img-mehandi{
+   height:310px;
+   width: 380px;
+   align-items: center;
+   margin-left: 10px;
+   margin-top:10px;
+   border-radius: 5px;
+}
+.text-m{
+   background-color: rgb(247, 195, 203);
+   color: black;
+   font-size: 30px;
+   font-family: 'Dancing Script', cursive;
+
+}
+.remove-margine{
+   margin: 0%;
+   margin-left: 300px;
+}
+.increase-h{
+   height: 420px;
+}
+.img-m1{
+    height:400px;
+}
