@@ -5,7 +5,7 @@
 }
 
 
-.main-container {
+.main-container1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
         url('../images/Haldi-Blog-Banner.jpeg');
     background-size: cover;
@@ -97,8 +97,8 @@ body {
     margin-top: 60px;
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px silver;
 }
-
 .decora-image {
     height: 250px;
     width: 280px;
@@ -127,9 +127,45 @@ body {
 
 .dia-text {
     color: #ff0066;
-
+    
 }
 
-.pack-text {
-    color: white;
+
+.detail-decoration-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+  
+}
+.logo-D{
+    height: 50px;
+    text-align: center;
+    
+}
+.decoration-title-text{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px silver;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.decoration-video-container{
+    border: 1px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+    height:450px;
+    width: 350px;
+    margin-top: 40px;
+}
+.main-college-container{
+   
+
+}
+.college-img{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 20px;
+
+    border: 1px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+
 }
