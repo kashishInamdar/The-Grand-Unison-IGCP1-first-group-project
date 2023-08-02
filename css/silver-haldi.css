@@ -10,7 +10,58 @@
 {
     background-color: #e6b6bc;
 }
+.main-container{
+    width: 100vw;
+}
 
+nav {
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 72px;
+background:linear-gradient(to right,rgb(48, 3, 19), rgb(189, 162, 10));
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: 50;
+width: 100%;
+}
+
+.logo {
+display: flex;
+justify-content: center;
+}
+.logo img {
+height: 80px;
+margin-right: 20px;
+}
+.project-title {
+font-size: 40px;
+color: white;
+margin-left: 0;
+display: block;
+margin-top: 20px;
+}
+#event {
+    font-size: 23px;
+    border: none;
+    background-color: rgb(135, 115, 2);
+    color: white;
+    
+}
+nav ul {
+display: flex;
+justify-content: center;
+
+}
+.nav-content {
+text-decoration: none;
+margin:  30px;
+color: white;
+font-size: 23px;
+font-family: Arial, Helvetica, sans-serif;
+}
 .main-image {
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
@@ -139,9 +190,12 @@ body
 }
 .cards {
     background-color: white;
-    height: 400px;
-    width: 300px;
-    margin-top: 60px;
+    background-image: url("../images/bg-img.jpg");
+    background-size: 170% 110%;
+    height: 450px;
+    width: 350px;
+    margin-inline: 20px;
+    margin-top: 10px;
     border: 1px solid #ff0066;
     padding: 10px;
     position: relative;
@@ -149,25 +203,30 @@ body
     box-shadow: 0 0 5px 3px #ff99c2;
 }
 .decora-image {
-    height: 250px;
-    width: 280px;
+    height: 260px;
+    width: 350px;
     border-radius: 8px;
-    margin-left: 10px;
-    margin-top: 5px;
+    margin-bottom: 20px;
+    /* margin-left: 2px;
+    margin-top: 5px; */
 }
 .card-title {
     text-align: center;
     margin-top: 20px;
+    font-size: 30px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    
 }
 .btn {
-    font-size: 15px;
+    font-size: 18px;
     display: block;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-right: auto;
     margin-left: auto;
     color: white;
     background-color: #ff0066;
-    padding: 10px;
+    padding-inline: 18px;
+    padding-block: 10px;
     border: none;
     border-radius: 10px;
 }
@@ -181,18 +240,67 @@ body
 {
     border: 1px solid #ff0066;
     box-shadow: 0 0 5px 3px #ff99c2;
-    height: 500px;
-    width: 280px;
-    margin-top: 40px;
-   
+    height: 600px;
+    width: 338px;
+    margin-top: 5px; 
 }
 .collage-img
 {
-    height: 250px;
-    width: 250px;
+    height: 282px;
+    width: 350px;
     margin-bottom: 25px;
     border: 1px solid #ff0066;
     box-shadow: 0 0 5px 3px #ff99c2;
+}
+.img-hover {
+    height: 282px;
+    width: 350px;
+    margin-bottom: 25px;
+    border: 3px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+    background-image: url("../images/haldi/deco2.jpg");
+    background-size: 100% 100%;
+    color: white;
+    
+}
+.text {
+    position: relative;
+    top: 100px;
+    
+}
+.img-hover:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url("../images/haldi/deco2.jpg");
+    transition: 1s;
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+.img-hover div {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    height: 100%;
+    font-size: 18px;
+    opacity: 0;
+}
+.img-hover div:hover {
+    transition: 0.5s;
+    opacity: 1;
+
+}
+.deco
+{
+    background-image: url(../images/haldi/deco.jpg);
+    height: 100% 100%;
+}
+.deco4
+{
+    background-image: url(../images/haldi/deco4.jpg);
+    height: 100% 100%;
+}
+.deco5
+{
+    background-image: url(../images/haldi/deco5.jpg);
+    height: 100% 100%;
 }
 .bor-radius-10
 {
