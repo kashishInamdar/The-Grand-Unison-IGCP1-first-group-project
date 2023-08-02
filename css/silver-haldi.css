@@ -192,9 +192,10 @@ body
     background-color: white;
     background-image: url("../images/bg-img.jpg");
     background-size: 170% 110%;
-    height: 400px;
-    width: 300px;
-    margin-top: 60px;
+    height: 450px;
+    width: 350px;
+    margin-inline: 20px;
+    margin-top: 10px;
     border: 1px solid #ff0066;
     padding: 10px;
     position: relative;
@@ -202,25 +203,30 @@ body
     box-shadow: 0 0 5px 3px #ff99c2;
 }
 .decora-image {
-    height: 250px;
-    width: 280px;
+    height: 260px;
+    width: 350px;
     border-radius: 8px;
-    margin-left: 10px;
-    margin-top: 5px;
+    margin-bottom: 20px;
+    /* margin-left: 2px;
+    margin-top: 5px; */
 }
 .card-title {
     text-align: center;
     margin-top: 20px;
+    font-size: 30px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    
 }
 .btn {
-    font-size: 15px;
+    font-size: 18px;
     display: block;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-right: auto;
     margin-left: auto;
     color: white;
     background-color: #ff0066;
-    padding: 10px;
+    padding-inline: 18px;
+    padding-block: 10px;
     border: none;
     border-radius: 10px;
 }
@@ -236,8 +242,7 @@ body
     box-shadow: 0 0 5px 3px #ff99c2;
     height: 600px;
     width: 338px;
-    margin-top: 5px;
-   
+    margin-top: 5px; 
 }
 .collage-img
 {
@@ -247,11 +252,57 @@ body
     border: 1px solid #ff0066;
     box-shadow: 0 0 5px 3px #ff99c2;
 }
+.img-hover {
+    height: 282px;
+    width: 350px;
+    margin-bottom: 25px;
+    border: 3px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+    background-image: url("../images/haldi/deco2.jpg");
+    background-size: 100% 100%;
+    color: white;
+    
+}
+.text {
+    position: relative;
+    top: 100px;
+    
+}
+.img-hover:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url("../images/haldi/deco2.jpg");
+    transition: 1s;
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+.img-hover div {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    height: 100%;
+    font-size: 18px;
+    opacity: 0;
+}
+.img-hover div:hover {
+    transition: 0.5s;
+    opacity: 1;
+
+}
+.deco
+{
+    background-image: url(../images/haldi/deco.jpg);
+    height: 100% 100%;
+}
+.deco4
+{
+    background-image: url(../images/haldi/deco4.jpg);
+    height: 100% 100%;
+}
+.deco5
+{
+    background-image: url(../images/haldi/deco5.jpg);
+    height: 100% 100%;
+}
 .bor-radius-10
 {
     border-radius:10px ;
-}
-.bor-radius-5
-{
-    border-radius:5px ;
 }
