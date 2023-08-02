@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.pos-rilativ
+{
+    position: relative;
+}
+.body1 
+{
+    background-color: #e6b6bc;
+}
+
+.main-image {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+     url('../images/haldi/Yellow-Haldi-Dress-for-Bride.jpg');
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    background-size: 1320px 800px;
+    height: 600px;
+    margin-top: 70px;
+}
+body 
+{
+    background-color: #e6b6bc;
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 120px;
+}
+
+.main-heading {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+    top: 40px;
+}
+.haldi-img {
+    border: 1px solid ffff66;
+    border-radius: 15px;
+    height: 300px;
+    box-shadow: 0 3px 3px 3px #ffffb3;
+}
+.haldi-img:hover
+{
+    transform: scale(1.1);
+    transition: 2s;
+    box-shadow: 2px 2px 2px 2px silver;
+}
+
+.haldi-quotes {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: gabriola;
+    width: 500px;
+}
+
+.pakeges-name {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 2px silver;
+    height: 60px;
+    width: 500px;
+    border: 2px double #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+    margin-left: 30%;
+}
+
+.pakeges {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.pakeges-card {
+    height: 400px;
+    width: 350px;
+    background-color: rgb(249 208 214);
+    background-image: url("../images/haldi/card-bg2.jpg");
+    background-size: 180% 100%;
+    border-radius: 10px;
+}
+.highlight {
+    color: #ff33cc;
+}
+.icons
+{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+}
+.pakeges-heading
+{
+    top: 40px;
+    padding: 20px;
+}
+.paregraph
+{
+    padding: 20px;
+    top: 80px;
+    font-size: 20px;
+}
+.contain-img
+{
+    height: 200px;
+    width:300px ;
+    
+    
+}
+.contain-img-div
+{
+    background-color: white;
+    padding: 3px;
+}
+.contain-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.services-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin-top: 60px;
+    border: 1px solid #ff0066;
+    padding: 10px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 3px #ff99c2;
+}
+.decora-image {
+    height: 250px;
+    width: 280px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.card-title {
+    text-align: center;
+    margin-top: 20px;
+}
+.btn {
+    font-size: 15px;
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    background-color: #ff0066;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.collage-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 120px;
+}
+.collage-video
+{
+    border: 1px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+    height: 500px;
+    width: 280px;
+    margin-top: 40px;
+   
+}
+.collage-img
+{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 25px;
+    border: 1px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+}
+.bor-radius-10
+{
+    border-radius:10px ;
+}
