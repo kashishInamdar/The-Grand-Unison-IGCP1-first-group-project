@@ -82,14 +82,16 @@ body {
 
 .cards {
     background-color: white;
-    height: 400px;
-    width: 300px;
+    height: 460px;
+    width: 350px;
     margin-top: 60px;
+    margin-left: 20px;
     border: 1px solid #ff0066;
     padding: 10px;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 0 5px 3px #ff99c2;
+    background-color:  #ffccff;
 }
 
 .diamond-text {
@@ -100,11 +102,11 @@ body {
     text-shadow: 2px 2px silver;
 }
 .decora-image {
-    height: 250px;
-    width: 280px;
+    height: 310px;
+    width: 350px;
     border-radius: 8px;
-    margin-left: 10px;
-    margin-top: 5px;
+    /* margin-left: 10px;
+    margin-top: 5px; */
 }
 
 .card-title {
@@ -113,16 +115,20 @@ body {
 }
 
 .btn {
-    font-size: 15px;
+    font-size: 20px;
     display: block;
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
     color: white;
     background-color: #ff0066;
-    padding: 10px;
+    padding-inline:20px;
+    padding-block: 10px;
     border: none;
     border-radius: 10px;
+}
+.btn:hover{
+    box-shadow: 5px 5px 10px 2px grey;
 }
 
 .dia-text {
@@ -148,24 +154,73 @@ body {
     text-shadow: 1px 1px silver;
     text-align: center;
     margin-bottom: 40px;
+    
 }
 .decoration-video-container{
-    border: 1px solid #ff0066;
-    box-shadow: 0 0 5px 3px #ff99c2;
-    height:430px;
-    width: 240px;
-    margin-top: 40px;
-}
-.main-college-container{
+    border:1px solid #ff0066;
+    box-shadow:0 0 5px 3px #ff99c2;
+    height:530px;
    
-
+    
+    border-radius: 10px;
 }
+
+
 .college-img{
     height: 250px;
-    width: 250px;
+    width: 350px;
     margin-bottom: 20px;
-
+    border-radius: 10px;
     border: 1px solid #ff0066;
     box-shadow: 0 0 5px 3px #ff99c2;
 
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 72px;
+   background:linear-gradient(to right, #db7093, #ceab1d);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    height: 80px;
+    margin-right: 20px;
+}
+
+.project-title {
+    font-size: 40px;
+    color: white;
+    margin-left: 0;
+    display: block;
+    margin-top: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+.nav-content {
+    text-decoration: none;
+    margin:  30px;
+    color: white;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#event {
+    font-size: 23px;
+    border: none;
+    background-color: rgb(135, 115, 2);
+    color: white;
+    
 }
