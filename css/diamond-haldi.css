@@ -139,6 +139,7 @@ body {
 
 .detail-decoration-card-container{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 
     justify-content:space-evenly;
@@ -157,16 +158,95 @@ body {
     margin-bottom: 40px;
     
 }
+.detail-decoration-card-container-1{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    border:1px solid #e6b6bc;
+    
+    padding: 10px;
+    width: 90%;
+    margin-left: 50px;
+   
+}
+.music-text{
+    text-align: left;
+    position: relative;
+    left:200px;
+    font-size: 30px;
+    width: 500px;
+    margin-top: 20px;
+}
+.band-img{
+    height: 350px;
+    width: 500px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+   
+    color: white;
+}
 .decoration-video-container{
     border:1px solid #ff0066;
     box-shadow:0 0 5px 3px #ff99c2;
-    height:530px;
+    height:510px;
    
-    width: 300px;
+    width: 290px;
     border-radius: 10px;
 }
+/* music cards */
+.sound-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.btn-know-more{
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    background-color: #ff0066;
+    padding-inline:20px;
+    padding-block: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.sound-card-1{
+    border:1px solid #ff0066;
+    border-radius: 10px;
+    box-shadow:0 0 5px 3px #ff99c2;
+    height: 350px;
+    width: 280px;
+    background-color:white;
+    padding: 10px;
+}
+.music-card-img{
+    height: 260px;
+    width: 270px;
+    margin-top: 5px;
+    border:1px solid #ff0066;
+    border-radius: 10px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+    /* box-shadow:0 0 5px 3px #ff99c2; */
+}
 
-
+.main-college-container-1{
+   
+    border:1px solid #ff0066;
+    border-radius: 10px;
+    box-shadow:0 0 5px 3px #ff99c2;
+    width: 800px;
+    height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
 .college-img{
     height: 250px;
     width: 350px;
