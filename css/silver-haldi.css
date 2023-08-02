@@ -13,6 +13,11 @@
 .main-container{
     width: 100vw;
 }
+.pink-bor-color
+{
+    border: 3px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+}
 
 nav {
 display: flex;
@@ -122,6 +127,13 @@ body
     height: 60px;
     width: 500px;
     margin-left: 30%;
+}
+.top-head{
+    text-align: center;
+    margin-top: 10px;
+    color: #cf2a69;
+    font-size: 60px;
+    font-family: 'gabriola';
 }
 .pakeges {
     display: flex;
@@ -233,8 +245,6 @@ body
 }
 .collage-video
 {
-    border: 1px solid #ff0066;
-    box-shadow: 0 0 5px 3px #ff99c2;
     height: 600px;
     width: 338px;
     margin-top: 5px; 
@@ -264,7 +274,7 @@ body
 }
 .text {
     position: relative;
-    top: 100px;
+    top: 60px;
     
 }
 .img-hover:hover {
@@ -313,8 +323,7 @@ body
     display: inline-block;
     width: 641px;
     height: 352px;
-    border: 3px solid #ff0066;
-    box-shadow: 0 0 5px 3px #ff99c2;
+   
 }
 .flex-row
 {
@@ -322,15 +331,40 @@ body
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10px;
-    width: 51%;
+    width: 101vh;
 }
 .music-img
 {
-    height: 280px;
+    height: 200px;
     width: 300px;
     border: 2px solid #ff0066;
     box-shadow: 0 0 5px 3px #ff99c2;
 }
 .music-contain{
-
+    border: 2px solid black;
+    height: 565px;
+    width: 500px;
+    margin-left: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)) ,
+    url("../images/haldi/dance4.jpg");
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+}
+.music-contain-h1{
+    margin-top: 40px;
+    font-size: 55px;
+    font-family: 'gabriola';
+}
+.music-contain-per
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: silver;
+    font-size: 30px;
+}
+.main-music-div
+{
+    display: flex;
+    margin-left: 40px;
 }
