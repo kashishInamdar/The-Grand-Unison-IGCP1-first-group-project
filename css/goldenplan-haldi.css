@@ -1,69 +1,106 @@
-* {
-    margin: 0;
-    padding: 0;
- }
- 
-  body {
-    background-color: rgb(247, 195, 203);
-    padding-right: 0;
- }
- 
- .main-container {
-    width: 100vw;
- }
- 
- nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 72px;
-    background-color: palevioletred;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 50;
-    width: 100%;
- }
- 
- .logo {
-    display: flex;
-    justify-content: center;
- }
- 
- .logo img {
-    height: 80px;
-    margin-right: 20px;
- }
- 
- .project-title {
-    font-size: 40px;
-    color: white;
-    margin-left: 0;
-    display: block;
-    margin-top: 20px;
- }
- 
- nav ul {
-    display: flex;
-    justify-content: center;
- 
- }
- 
- .nav-content {
-    text-decoration: none;
-    margin: 30px;
-    color: white;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
- }
- #event {
-    font-size: 25px;
-    border: none;
-    background-color: palevioletred;
-    color: white;
-    
- }
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background:linear-gradient(to right, #db7093, #ceab1d);
+
+   padding-right: 0; 
+}
+.cover-page{
+   height: 100vh;
+   width: 100%;
+   background-image: url("./../images/cover-page.jpg");
+   background-size: 100% 100vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: right;
+   
+}
+.card-cover {
+   height: 200px;
+   width: 450px;
+   border: 1px solid rgb(101, 6, 6);
+   box-shadow: 5px 5px 10px 15px rgb(48, 3, 19);
+   border-radius: 10px;
+   margin-top: auto;
+   margin-right: 50px;
+   margin-bottom: 130px;
+   padding: 25px;
+   color: white;
+   background: transparent;
+
+}
+.card-cover:hover {
+   transform: scale(1.1);
+   transition: 1s;
+   box-shadow: 5px 5px 20px 5px rgb(104, 6, 6);
+}
+.card-cover h1 {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 40px;
+}
+.card-cover p {
+   font-size: 40px;
+   font-family:gabriola;
+}
+.main-container{
+       width: 100vw;
+}
+   
+nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 72px;
+   background:linear-gradient(to right, #db7093, #ceab1d);
+
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 50;
+   width: 100%;
+}
+
+.logo {
+   display: flex;
+   justify-content: center;
+}
+.logo img {
+   height: 80px;
+   margin-right: 20px;
+}
+
+.project-title {
+   font-size: 40px;
+   color: white;
+   margin-left: 0;
+   display: block;
+   margin-top: 20px;
+}
+nav ul {
+   display: flex;
+   justify-content: center;
+
+}
+.nav-content {
+   text-decoration: none;
+   margin:  30px;
+   color: white;
+   font-size: 23px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#event {
+   font-size: 23px;
+   border: none;
+   background-color: rgb(135, 115, 2);
+   color: white;
+   
+}
+
  
  .main-container1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../images/haldi.jpg);
@@ -76,19 +113,23 @@
  }
  
  .heading-text {
-    /* color: white; */
+    color: white;
     color:rgb(141, 135, 27);
+    /* text-align: center; */
     text-align: center;
     font-size: 50px;
     position: relative;
     top: 150px;
+    
  
  }
  
  .heading-text1 {
     font-size: 40px;
-    margin-top: 20px;
-    font-family: Georgia
+    margin-top: 320px;
+    font-family: Georgia;
+    
+    
  }
  
  .sub-container {
@@ -103,6 +144,7 @@
     margin-top: 230px;
     border-radius: 15px;
     box-shadow: 0 0 1px 2px yellow;
+    margin-left: 450px;
  }
  
  .halad-img:hover {
@@ -144,7 +186,7 @@
     background: url(../images/bottom-border-made-with-decorated-flowers-pink-background_23-2147925499.jpg);
     background-color: rgb(243, 239, 240);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     border-radius: 15px;
     flex: 1 1 25rem;
     padding: 1.0rem;
@@ -316,46 +358,53 @@
     color: red;
     font-size: 4rem;
  }
+ .collage-div {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   top: 120px;
+}
+.photo-row {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/ph.jpg);
+   opacity: 0.7;
+   background-size: cover;
+   /* border: 1px solid black; */
+   opacity: 0.9;
+   height: 620px;
+   width: 460px;
+   align-items: center;
+   border-radius: 10px;
+   list-style: none;
+   margin-top: 60px;
+}
+.photo-text1{
  
- .photo-row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
- }
- 
- .photo-col {
-    height: 37rem;
-    color: aqua;
-    background-color: rgb(248, 248, 248);
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px;
-    /* flex: 1 1 2rem; */
-    width: 28%;
-    display: flex;
-    flex-direction: column;
-    padding: 0.5rem;
-    margin: 1.5rem;
-    text-align: center;
- }
- 
- .photo-row {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../images/haldi.jpg);
-    opacity: 0.9;
-    background-size: cover;
-    /* border: 1px solid black; */
-    opacity: 0.9;
-    height: 700px;
-    width: 460px;
-    align-items: center;
-    border-radius: 10px;
- }
- .photo-text{
-    margin: 60px;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     list-style: none;
- }
+   font-size: 50px;
+   margin-top: 100px;  
+   
+}
+.text-photo2{
+   text-align: center;
+   font-size: 20px;
+   font-weight: 500;
+   color: gold;
+   list-style: none;
+
+}
+
+
+.collage-img
+{
+   height: 270px;
+   width: 380px;
+   margin-top: 65px;
+   border: 1px solid #ff0066;
+   box-shadow: 0 0 5px 3px #ff99c2;
+}
+.bor-radius-10
+{
+   border-radius:10px ;
+}
  /* ---------------------section
  jwellery--------------------------- */
  
@@ -387,12 +436,14 @@
    border-radius: 5px;
 }
 .text-m{
-   background-color: rgb(247, 195, 203);
+   background:linear-gradient(to right,rgb(65, 6, 27), rgb(189, 162, 10));
    color: black;
    font-size: 30px;
    font-family: 'Dancing Script', cursive;
-
+   padding:10px;
 }
+/* ---------------------section mehandi---------------- */
+
 .remove-margine{
    margin: 0%;
    margin-left: 300px;
@@ -402,4 +453,19 @@
 }
 .img-m1{
     height:400px;
+}
+.text-m2{
+   height: 450px;
+}
+
+.img-card{
+   height:360px;
+   width: 425px;
+   padding: none;
+   background-image: none;
+   border-radius: 10px;
+}
+.card-removebg{
+   background-image: none;
+   
 }
