@@ -223,6 +223,7 @@ body {
     width: 280px;
     background-color:white;
     padding: 10px;
+    padding-bottom: 20px;
 }
 .music-card-img{
     height: 260px;
@@ -235,7 +236,71 @@ body {
    margin-right: auto;
     /* box-shadow:0 0 5px 3px #ff99c2; */
 }
+/*jwellory*/
+.perfect-same-content{
+    border:1px solid #ff0066;
+    border-radius: 10px;
+    box-shadow:0 0 5px 3px #ff99c2;
+}
+.jwellory-card-small{
+    border:1px solid #ff0066;
+    border-radius: 10px;
+    height: 450px;
+    width: 300px;
+    background-color:#f5ca08;
+    box-shadow:0 0 5px 3px #ff99c2;
+   
+}
+.jwellory-video{
+    height: 450px;
+    width: 300px;
+    background-color:#f5ca08;
+    position: relative;
+    top:50px;
+}
+.jwellory-card-small-2{
+    height: 450px;
+    width: 300px;
+    position: relative;
+    top:100px;
+    
+}
+.jwellory-card-small-3{
+    height: 450px;
+    width: 300px;
+    position: relative;
+    top:150px;
+}
 
+.sound-card-text{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    
+
+}
+
+.music-text-1{
+    text-align: left;
+    
+   
+    font-size: 30px;
+    width: 500px;
+    margin-top: 20px;
+}
+.band-img-1{
+    position: relative;
+    left:200px;
+    
+    height: 350px;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+   
+    color: white;
+}
 .main-college-container-1{
    
     border:1px solid #ff0066;
@@ -278,6 +343,7 @@ body {
 
 
 
+
 .college-img:hover{
     background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)),
         url("../images/diamond-haldi-img/deep-decoration.png");
@@ -302,52 +368,58 @@ body {
     position: relative;
     top:100px;
 }
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 72px;
-   background:linear-gradient(to right, #db7093, #ceab1d);
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 50;
-    width: 100%;
+.main-container{
+    width: 100vw;
 }
+
+nav {
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 72px;
+background:linear-gradient(to right, #db7093, #ceab1d);
+/* background-color: palevioletred; */
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: 50;
+width: 100%;
+}
+
 .logo {
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 .logo img {
-    height: 80px;
-    margin-right: 20px;
+height: 80px;
+margin-right: 20px;
 }
 
 .project-title {
-    font-size: 40px;
-    color: white;
-    margin-left: 0;
-    display: block;
-    margin-top: 20px;
+font-size: 40px;
+color: white;
+margin-left: 0;
+display: block;
+margin-top: 20px;
 }
 nav ul {
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 
 }
 .nav-content {
-    text-decoration: none;
-    margin:  30px;
-    color: white;
-    font-size: 23px;
-    font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+margin:  30px;
+color: white;
+font-size: 23px;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 #event {
-    font-size: 23px;
-    border: none;
-    background-color: rgb(135, 115, 2);
-    color: white;
-    
+font-size: 23px;
+border: none;
+background-color: rgb(135, 115, 2);
+color: white;
+
 }
