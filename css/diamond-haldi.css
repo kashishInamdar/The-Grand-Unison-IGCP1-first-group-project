@@ -484,7 +484,19 @@ text-align: center;
 }
 
 
+.photo-video-img{
+    height: 280px;
+    width: 280px;
+    border: 10px double #ff0066;
+    border-radius: 50%;
 
+}
+
+.phot-shoot-container{
+ display: flex;
+ justify-content: space-between;
+
+}
 /*Footer section start*/
 footer {
     background: #08192b;
