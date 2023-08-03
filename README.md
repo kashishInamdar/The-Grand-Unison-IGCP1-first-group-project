@@ -10,4 +10,4 @@
 
 4. Sweta Pund - Receiption Ceremony Packages.
 
-5. Yogita Shete - Home Page, About Us and Contact Page.
+5. Yogita Shete - Home Page, About Us, Login and Signin
