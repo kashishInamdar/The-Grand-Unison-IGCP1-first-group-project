@@ -6,137 +6,17 @@ body {
     background-color: #e6b6bc;
 }
 
-.cover-page {
-    height: 90vh;
-    width: 100%;
-    margin-top: 60px;
-    background-image: url("./../images/cover-page.jpg");
-    background-size: 100%;
-
-
-}
-
-.heading-top {
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: 90px;
-    font-family: 'gabriola';
-
-
-}
-
-.card-cover {
-    color: white;
-    width: 800px;
-    /* margin-top: 50px; */
-    position: relative;
-    top: 150px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    margin: 0 auto;
-}
-
-.text {
-    text-decoration: none;
-}
-
-p {
-    text-align: center;
-    color: white;
-    font-size: 45px;
-    font-family: 'gabriola';
-
-}
-
-.btn {
-    display: block;
-    margin: 0 auto;
-    margin-top: 30px;
-    /* background-color: rgb(239, 43, 43); */
-    background-color: #cf2a69;
-    color: white;
-    padding: 8px;
-    border: none;
-    font-size: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+/*navbar start*/
+.main-content {
+    height: 400px;
+    width: 400px;
+    border: solid 0.5px #ea4c89;
     border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 72px;
-    /* background: linear-gradient(to right, #db7093, #ceab1d); */
-    background: #ea4c89;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 50;
-    width: 100%;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-}
-
-.logo img {
-    height: 80px;
-    margin-right: 20px;
-}
-
-.project-title {
-    font-size: 40px;
-    color: white;
-    margin-left: 0;
-    display: block;
-    margin-top: 20px;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-
-}
-
-.nav-content {
-    text-decoration: none;
-    margin: 30px;
-    color: white;
-    font-size: 23px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#event {
-    font-size: 23px;
-    border: none;
-    background-color: rgb(135, 115, 2);
-    color: white;
-
-}
-
-.circular-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-
-.logo-heart {
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.logo-diamond {
-    margin-top: 20px;
-    border-bottom: 0;
+    padding: 10px;
+    box-shadow: grey 0 0 5px 1px;
+    margin: 15px;
+    flex-wrap: wrap;
+ 
 }
 
 nav {
@@ -169,45 +49,77 @@ nav {
     margin-left: 0;
     display: block;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
-
 }
 
 .nav-content {
     text-decoration: none;
     margin: 30px;
     color: white;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'gabriola';
 }
 
 #event {
-    font-size: 20px;
     border: none;
     background-color: #ea4c89;
     color: white;
-}
-
-.circular-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-
-.logo-heart {
+    font-size: 30px;
     margin-top: 10px;
-    margin-left: 10px;
+    font-weight: bold;
+    font-family: 'gabriola';
+}
+/*Navbar End*/
+
+.cover-page {
+    height: 90vh;
+    width: 100%;
+    margin-top: 60px;
+    background-image: url("./../images/cover-page.jpg");
+    background-size: 100%;
+
+
 }
 
-.logo-diamond {
-    margin-top: 20px;
-    border-bottom: 0;
+.heading-top {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 90px;
+    font-family: 'gabriola';
+
+
 }
+
+.card-cover {
+    color: white;
+    width: 800px;
+    position: relative;
+    top: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.text {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'gabriola';
+
+}
+
+/*Card section start*/
 
 .top-head{
     text-align: center;
@@ -217,17 +129,6 @@ nav ul {
     font-family: 'gabriola';
 }
 
-.main-content {
-    height: 400px;
-    width: 400px;
-    border: solid 0.5px #ea4c89;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: grey 0 0 5px 1px;
-    margin: 15px;
-    flex-wrap: wrap;
- 
-}
 .content{
     display: flex;
     flex-direction: row;
@@ -291,12 +192,26 @@ nav ul {
     font-family: 'gabriola';
     font-size: 35px;
 }
+/*Card section end*/
+
+/*Contact US Section Start*/
+.contactus{
+    height: 400px;
+    width: 1000px;
+    background-color: #feaea3;
+    margin: 0 auto;
+    margin-bottom: 30px;
+border-radius: 20px;
+}
+
+
+
+/*Contact US Section End*/
 
 
 
 
-
-/*Footer start*/
+/*Footer section start*/
 footer {
     background: #08192b;
     padding-bottom: 20px;
@@ -395,4 +310,4 @@ footer {
 
 }
 
-/*Footer End*/
+/*Footer section End*/
