@@ -75,7 +75,7 @@ body {
 
 .services-cards {
     display: flex;
-    flex-direction: row;
+    
     align-items: end;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -92,7 +92,7 @@ body {
     position: relative;
     border-radius: 8px;
     box-shadow: 0 0 5px 3px #ff99c2;
-    background-color:  #ffccff;
+   
 }
 
 .diamond-text {
@@ -598,3 +598,6 @@ footer {
 
 /*Footer section End*/
 
+.btn-change{
+    text-decoration: none;
+}
