@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.pos-rilativ
+{
+    position: relative;
+}
+.body1 
+{
+    background-color: #e6b6bc;
+}
+.main-container{
+    width: 100vw;
+}
+/*navbar start*/
+.main-content {
+    height: 400px;
+    width: 400px;
+    border: solid 0.5px #ea4c89;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: grey 0 0 5px 1px;
+    margin: 15px;
+    flex-wrap: wrap;
+ 
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 72px;
+    background: #ea4c89;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 20px;
+}
+
+.project-title {
+    font-size: 30px;
+    color: white;
+    margin-left: 0;
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+p {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'gabriola';
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-content {
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'gabriola';
+}
+
+#event {
+    border: none;
+    background-color: #ea4c89;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'gabriola';
+}
+/*Navbar End*/
+
+.main-image {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+     url('../images/wedding-img2.jpg');
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    background-size:100% 100vh;
+    height: 600px;
+    margin-top: 70px;
+}
+body 
+{
+    background-color: #e6b6bc;
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 120px;
+}
+
+.main-heading {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+    top: 40px;
+}
+.haldi-img {
+    border: 1px solid ffff66;
+    border-radius: 15px;
+    height: 300px;
+    box-shadow: 0 3px 3px 3px #ffffb3;
+}
+.haldi-img:hover
+{
+    transform: scale(1.1);
+    transition: 2s;
+    box-shadow: 2px 2px 2px 2px silver;
+}
+
+.haldi-quotes {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: gabriola;
+    width: 500px;
+}
+
+.pakeges-name {
+    text-align: center;
+    font-size: 60px;
+    color: #cf2a69;
+    font-family: 'gabriola';
+    text-shadow: 3px 2px silver;
+    height: 60px;
+    width: 500px;
+    margin-left: 30%;
+}
+.top-head{
+    text-align: center;
+    margin-top: 10px;
+    color: #cf2a69;
+    font-size: 60px;
+    font-family: 'gabriola';
+}
+.pakeges {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.pakeges-card {
+    height: 400px;
+    width: 350px;
+    background-color: rgb(249 208 214);
+    background-image: url("../images/haldi/card-bg2.jpg");
+    background-size: 180% 100%;
+    border-radius: 10px;
+}
+
+.icons
+{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+}
+.pakeges-heading
+{
+    top: 40px;
+    padding: 20px;
+}
+.paregraph
+{
+    padding: 20px;
+    top: 80px;
+    font-size: 20px;
+}
+.contain-img
+{
+    height: 200px;
+    width:300px ;
+    
+    
+}
+.contain-img-div
+{
+    background-color: white;
+    padding: 3px;
+}
+.contain-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.services-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards {
+    background-color: white;
+    background-image: url("../images/bg-img.jpg");
+    background-size: 170% 110%;
+    height: 450px;
+    width: 350px;
+    margin-inline: 20px;
+    margin-top: 10px;
+    border: 1px solid #ff0066;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px #ff99c2;
+}
+.decora-image {
+    height: 260px;
+    width: 350px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    /* margin-left: 2px;
+    margin-top: 5px; */
+}
+.card-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    
+}
+.btn {
+    font-size: 18px;
+    display: block;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    background-color: #ff0066;
+    padding-inline: 18px;
+    padding-block: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.collage-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 120px;
+}
+.collage-video
+{
+    height: 600px;
+    width: 338px;
+    margin-top: 5px; 
+}
+.collage-video-hr{
+    height: 338;
+    width: 600px;
+}
+.collage-img
+{
+    height: 282px;
+    width: 350px;
+    margin-bottom: 25px;
+    border: 1px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+}
+.img-hover {
+    height: 282px;
+    width: 350px;
+    margin-bottom: 25px;
+    border: 3px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+    background-image: url("../images/wedding-dec01.jpeg");
+    background-size: 100% 100%;
+    color: white;
+    
+}
+.text {
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+    
+}
+/* .text ul li {
+    font-family: gabriola;
+} */
+.img-hover:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url("../images/wedding-dec02.jpeg");
+    transition: 1s;
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+.img-hover div {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    height: 100%;
+    font-size: 18px;
+    opacity: 0;
+}
+.img-hover div:hover {
+    transition: 0.5s;
+    opacity: 1;
+
+}
+.deco
+{
+    background-image: url(../images/wedding-dec03.jpeg);
+    height: 100% 100%;
+}
+.deco4
+{
+    background-image: url(../images/wedding-dec04.jpeg);
+    height: 100% 100%;
+}
+.deco5
+{
+    background-image: url(../images/wedding-dec05.jpeg);
+    height: 100% 100%;
+}
+.bor-radius-10
+{
+    border-radius:10px ;
+}
+.music-div{
+    margin-left: 40px;
+}
+.music-video
+{
+    display: inline-block;
+    width: 690px;
+    height: 352px;
+   
+}
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 101vh;
+}
+.music-img
+{
+    height: 250px;
+    width: 350px;
+    border: 2px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+}
+.music-contain{
+    border: 2px solid black;
+    height: 613px;
+    width: 500px;
+    margin-left: 70px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)) ,
+    url("../images/haldi/dance4.jpg");
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+}
+.music-contain-h1{
+    margin-top: 80px;
+    font-size: 55px;
+    font-family: 'gabriola';
+}
+.music-contain-per
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: silver;
+    font-size: 33px;
+}
+.main-music-div
+{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.mehandi01 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.mehandi02 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.mehandi-pic img {
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px #ff0000;
+}
+/* footer */
+footer {
+    background: #08192b;
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 20px;
+}
+
+.footer-col {
+    width: 25%;
+
+}
+
+.footer-col h4 {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 37px;
+    font-weight: bold;
+}
+
+.footer-col span {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 33px;
+    font-weight: bold;
+}
+
+.footer-logo {
+    height: 65px;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.footer-logo-heading {
+    display: flex;
+    align-items: center;
+}
+
+.footer-col ul li {
+    margin-bottom: 15px;
+}
+
+.footer-col ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social-links a {
+    font-size: 27px;
+    color: white;
+    margin-right: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.fa-icon {
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.service-text {
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left: 15px;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .footer-col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+/*Footer section End*/
