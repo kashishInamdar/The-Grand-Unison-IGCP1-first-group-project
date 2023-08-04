@@ -51,6 +51,7 @@ nav {
     display: block;
     margin-top: 20px;
     font-weight: bold;
+    font-family: 'gabriola';
 }
 
 nav ul {
@@ -113,14 +114,6 @@ nav ul {
     text-decoration: none;
 }
 
-p {
-    text-align: center;
-    color: white;
-    font-size: 45px;
-    font-family: 'gabriola';
-
-}
-
 /*Card section start*/
 
 .top-head {
@@ -138,8 +131,6 @@ p {
     flex-wrap: wrap;
 
 }
-
-
 .wedding-img {
     height: 250px;
     display: block;
