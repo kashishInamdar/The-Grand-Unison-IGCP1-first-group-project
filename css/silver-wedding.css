@@ -51,12 +51,16 @@ nav {
 }
 
 .project-title {
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     margin-left: 0;
     display: block;
     margin-top: 20px;
     font-weight: bold;
+}
+.prize01 {
+    margin-top: 40px;
+    color: red;
 }
 p {
     text-align: center;
@@ -97,7 +101,7 @@ nav ul {
     background-repeat: no-repeat;
     opacity: 0.9;
     background-size:100% 100vh;
-    height: 600px;
+    height: 645px;
     margin-top: 70px;
 }
 body 
@@ -108,6 +112,7 @@ body
 .main-flex {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     top: 120px;
 }
@@ -140,7 +145,11 @@ body
     font-family: gabriola;
     width: 500px;
 }
-
+@media screen and (max-width: 800px) {
+    .haldi-quotes {
+        font-size: 30px;
+    }
+}
 .pakeges-name {
     text-align: center;
     font-size: 60px;
@@ -220,7 +229,8 @@ body
 }
 .cards {
     background-color: white;
-    background-image: url("../images/bg-img.jpg");
+    /* background-image: url("../images/bg-img.jpg"); */
+    background: linear-gradient(to right,#ff9999, white);
     background-size: 170% 110%;
     height: 450px;
     width: 350px;
@@ -231,6 +241,9 @@ body
     position: relative;
     border-radius: 10px;
     box-shadow: 0 0 5px 3px #ff99c2;
+}
+.cards a {
+    text-decoration: none;
 }
 .decora-image {
     height: 260px;
@@ -263,6 +276,7 @@ body
 .collage-div {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     top: 120px;
 }
@@ -352,10 +366,17 @@ body
     height: 352px;
    
 }
+@media screen and (max-width: 800px) {
+    .music-video {
+        width: 400px;
+    }
+}
+
 .flex-row
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
     width: 101vh;
@@ -393,6 +414,7 @@ body
 .main-music-div
 {
     display: flex;
+    flex-wrap: wrap;
     margin-left: 40px;
     margin-bottom: 30px;
 }
@@ -400,12 +422,14 @@ body
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     
 }
 .mehandi02 {
     margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     
 }
 .mehandi-pic img {
