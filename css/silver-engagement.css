@@ -421,3 +421,117 @@ body
     display: flex;
     margin-left: 40px;
 }
+
+/* -----------------Jwellory--------------- */
+.decoration-title-text{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px silver;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.detail-decoration-card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly; 
+}
+.detail-decoration-card-container-1{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    border:1px solid #e6b6bc;
+    
+    padding: 10px;
+    width: 90%;
+    margin-left: 50px;
+}
+.music-text{
+    text-align: left;
+    position: relative;
+    left:200px;
+    font-size: 30px;
+    width: 500px;
+    margin-top: 20px;
+}
+.band-img{
+    height: 350px;
+    width: 470px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+    color: white;
+}
+.decoration-video-container{
+    border:1px solid #ff0066;
+    box-shadow:0 0 5px 3px #ff99c2;
+    height:510px;  
+    width: 290px;
+    border-radius: 10px;
+}
+    /* music cards */
+.sound-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+.sound-card-1{
+    border:1px solid #ff0066;
+    border-radius: 10px;
+    box-shadow:0 0 5px 3px #ff99c2;
+    height: 350px;
+    width: 280px;
+    background-color:white;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.music-card-img{
+    height: 260px;
+    width: 270px;
+    margin-top: 5px;
+    border:1px solid #ff0066;
+    border-radius: 10px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+    /*jwellory*/
+.perfect-same-content{
+    border:1px solid #ff0066;
+    border-radius: 10px;
+    box-shadow:0 0 5px 3px #ff99c2;
+}
+.sound-card-text{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.music-text-1{
+    text-align: center;
+    font-family: 'gabriola';
+    border: 2px solid black;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    width: 500px;
+    bottom: 20px;
+    margin-top: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)) ,
+    url("../images/haldi/dance4.jpg");
+}
+.band-img-1{
+    position: relative;
+    left:200px;
+    height: 350px;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+    color: white;
+}
