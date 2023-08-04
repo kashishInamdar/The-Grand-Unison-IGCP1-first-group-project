@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.font-family{
+    font-family: 'gabriola';
+}
+.pos-rilativ
+{
+    position: relative;
+}
+.body1 
+{
+    background-color: #e6b6bc;
+}
+.main-container{
+    width: 100vw;
+}
+.pink-bor-color
+{
+    border: 3px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+}
+
+.main-content {
+    height: 400px;
+    width: 400px;
+    border: solid 0.5px #ea4c89;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: grey 0 0 5px 1px;
+    margin: 15px;
+    flex-wrap: wrap;
+ 
+}
+/* ------------NAVBAR---------------- */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 72px;
+    background: #ea4c89;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 20px;
+}
+
+.project-title {
+    font-size: 30px;
+    color: white;
+    margin-left: 0;
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'gabriola';
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-content {
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'gabriola';
+}
+
+#event {
+    border: none;
+    background-color: #ea4c89;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'gabriola';
+}
+
+/* -------------main-page-------------- */
+.main-image {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+     url('../images/haldi/Yellow-Haldi-Dress-for-Bride.jpg');
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    background-size: 1320px 800px;
+    height: 600px;
+    margin-top: 51px;
+}
+body 
+{
+    background-color: #e6b6bc;
+}
+
+.main-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 120px;
+}
+
+.main-heading {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+    top: 40px;
+}
+.haldi-img {
+    border: 1px solid ffff66;
+    border-radius: 15px;
+    height: 300px;
+    width: 400px;
+    box-shadow: 0 3px 3px 3px #ffffb3;
+}
+.haldi-img:hover
+{
+    transform: scale(1.1);
+    transition: 2s;
+    box-shadow: 2px 2px 2px 2px silver;
+}
+
+.haldi-quotes {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: gabriola;
+    width: 500px;
+}
+
+.pakeges-name {
+    text-align: center;
+    font-size: 60px;
+    color: #cf2a69;
+    font-family: 'gabriola';
+    text-shadow: 3px 2px silver;
+    height: 60px;
+    width: 500px;
+    margin-left: 30%;
+}
+.top-head{
+    text-align: center;
+    margin-top: 10px;
+    color: #cf2a69;
+    font-size: 60px;
+    font-family: 'gabriola';
+}
+.pakeges {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.pakeges-card {
+    height: 400px;
+    width: 350px;
+    background-color: rgb(249 208 214);
+    background-image: url("../images/haldi/card-bg2.jpg");
+    background-size: 180% 100%;
+    border-radius: 10px;
+}
+
+.icons
+{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+}
+.pakeges-heading
+{
+    top: 40px;
+    padding: 20px;
+}
+.paregraph
+{
+    padding: 20px;
+    top: 80px;
+    font-size: 20px;
+}
+.contain-img
+{
+    height: 200px;
+    width:300px ;
+    
+    
+}
+.contain-img-div
+{
+    background-color: white;
+    padding: 3px;
+}
+.contain-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.services-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards {
+    background-color: white;   
+    background-size: 170% 110%;
+    height: 450px;
+    width: 350px;
+    margin-inline: 20px;
+    margin-top: 10px;
+    border: 1px solid #ff0066;
+    padding: 10px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 3px #ff99c2;
+}
+.decora-image {
+    height: 290px;
+    width: 350px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.card-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.btn {
+    font-size: 18px;
+    display: block;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    background-color: #ff0066;
+    padding-inline: 18px;
+    padding-block: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow:2px 2px 4px 2px black;
+}
+.btn-link
+{
+    text-decoration: none;
+}
+.btn-link:hover{
+    
+}
+
