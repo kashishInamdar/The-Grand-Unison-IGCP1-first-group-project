@@ -272,3 +272,97 @@ body
     
 }
 
+/* -------------------Decoration-------------- */
+.collage-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 120px;
+}
+.collage-video
+{
+    height: 600px;
+    width: 338px;
+    margin-top: 5px;
+    border: 1px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+    border-radius: 10px;
+}
+.collage-video-hr{
+    height: 338;
+    width: 600px;
+}
+.collage-img
+{
+    height: 282px;
+    width: 350px;
+    margin-bottom: 25px;
+    border: 1px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+    
+}
+.img-hover {
+    height: 282px;
+    width: 350px;
+    margin-bottom: 25px;
+    border: 3px solid #ff0066;
+    box-shadow: 0 0 5px 3px #ff99c2;
+    background-image: url("../images/silver-engagement/deco5.jpg");
+    background-size: 100% 100%;
+    color: white;
+    border-radius: 15px;
+}
+.text-01
+{
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+    font-family: gabriola;
+}
+.text {
+    position: relative;
+    top: 40px;
+    font-family: gabriola;
+    font-size: 20px;
+    text-decoration: none;
+}
+.img-hover:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+    url("../images/silver-engagement/deco5.jpg");
+    transition: 1s;
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+.img-hover div {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    height: 100%;
+    font-size: 18px;
+    opacity: 0;
+}
+.img-hover div:hover {
+    transition: 0.5s;
+    opacity: 1;
+
+}
+
+.deco
+{
+    background-image: url(../images/silver-engagement/deco.jpg);
+    height: 100% 100%;
+}
+.deco4
+{
+    background-image: url(../images/silver-engagement/deco2.jpg);
+    height: 100% 100%;
+}
+.deco5
+{
+    background-image: url(../images/silver-engagement/deco3.jpg);
+    height: 100% 100%;
+}
+.bor-radius-10
+{
+    border-radius:10px ;
+}
