@@ -18,6 +18,45 @@
     margin-right: auto; */
 }
 
+/*mobiles
+
+@media screen and (min-width:425px) and (max-width: 768px) {
+    .main-container1{
+        height: 900px;
+       
+    }
+    .heading-text {
+        
+        font-size: 20px;
+      
+    
+    }
+    .halad-img {
+        height: 150px;
+        width: 150px;
+       }
+    
+    
+    
+
+  }
+/* Tablet Devices 
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .main-container1{
+        height:800px;
+        width: 100%;
+    }
+    .heading-text {
+       
+        font-size: 30px;
+        position: relative;
+        }
+  }
+
+  */
+
+
 body {
     background-color: #e6b6bc;
 }
@@ -162,16 +201,40 @@ body {
 .detail-decoration-card-container-1{
     display: flex;
     flex-direction: row;
-    vertical-align: middle;
+    flex-wrap: wrap;
     border:1px solid #e6b6bc;
-    
     padding: 10px;
     width: 90%;
-    margin-left: 50px;
    
 }
+
+/*mobiles
+
+@media screen and (min-width:425px) and (max-width: 768px) {
+
+    
+    .music-text{
+        
+        font-size: 20px;
+        margin-right: 50px;
+        
+    }
+    
+  }
+ Tablet Devices 
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    
+    .music-text{
+        
+        font-size: 20px;
+        position: relative;
+        left: 2px;
+    }
+  }
+*/
 .music-text{
-    text-align: left;
+    
     position: relative;
     left:200px;
     font-size: 30px;
@@ -185,7 +248,7 @@ body {
     border-radius: 10px;
     border: 2px solid #ff0066;
     box-shadow: 0 0 5px 3px #ff99c2;
-   
+   margin-left: 50px;
     color: white;
 }
 .decoration-video-container{
@@ -195,14 +258,29 @@ body {
    
     width: 270px;
     border-radius: 10px;
+}/*
+@media screen and (min-width:425px) and (max-width: 768px){
+    .decoration-video-container{
+        margin-bottom: 50px;
+    }
 }
-/* music cards */
+ Tablet Devices 
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .decoration-video-container{
+        margin-bottom: 50px;
+    }
+}
+
+ music cards */
 .sound-card{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
    
 }
+
 .btn-know-more{
     font-size: 20px;
     display: block;
@@ -225,6 +303,7 @@ body {
     background-color:white;
     padding: 10px;
     padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 .music-card-img{
     height: 260px;
@@ -284,15 +363,15 @@ body {
 
 .music-text-1{
     text-align: left;
-    
-   
+    position: relative;
+    left:80px;
     font-size: 30px;
     width: 500px;
     margin-top: 20px;
 }
 .band-img-1{
     position: relative;
-    left:200px;
+    left:300px;
     
     height: 350px;
     width: 400px;
@@ -388,6 +467,7 @@ nav {
     z-index: 50;
     width: 100%;
 }
+
 
 .logo {
     display: flex;
@@ -494,7 +574,9 @@ text-align: center;
 
 .phot-shoot-container{
  display: flex;
- justify-content: space-between;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
 
 }
 /*Footer section start*/
