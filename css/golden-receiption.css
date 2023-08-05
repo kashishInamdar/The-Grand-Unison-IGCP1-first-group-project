@@ -17,44 +17,33 @@
     /* margin-left: auto;
     margin-right: auto; */
 }
-
-/*mobiles
-
-@media screen and (min-width:425px) and (max-width: 768px) {
+/*mobile*/
+@media screen and (min-width:350px) and (max-width: 768px) {
     .main-container1{
         height: 900px;
-       
-    }
-    .heading-text {
-        
-        font-size: 20px;
-      
-    
-    }
-    .halad-img {
-        height: 150px;
-        width: 150px;
-       }
-    
-    
-    
-
-  }
-/* Tablet Devices 
-
-@media screen and (min-width: 769px) and (max-width: 992px) {
-    .main-container1{
-        height:800px;
         width: 100%;
     }
-    .heading-text {
-       
-        font-size: 30px;
-        position: relative;
-        }
-  }
+   
+    }
+/* Tablet Devices*/ 
 
-  */
+@media screen and (max-width: 992px) {
+    .main-container1{
+        height:900px;
+        width: 100%;
+    }
+  
+  }
+        
+
+
+
+    
+    
+    
+
+  
+
 
 
 body {
@@ -423,7 +412,7 @@ font-size: 25px;
     background-size: 100% 100%;
 }
 .college-img-bg-img-3{
-    background-image:url("../images/reception-diamond/deco-recep-3.png");
+    background-image:url("../images/reception-diamond/deco-recep-3.png ");
     background-size: 100% 100%;
 }
 
