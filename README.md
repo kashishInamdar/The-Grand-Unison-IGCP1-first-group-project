@@ -1,5 +1,10 @@
 # The Grand Unison
 ### We assist with the design, planning and management of a client's events such as Engagement , Haldi, Wedding & Receiption Ceremony.
+## Ceremonies :
+- Ring Ceremony
+- Haldi Ceremony
+- Wedding
+- Receiption Ceremony
 
 ## Contributors :
 
