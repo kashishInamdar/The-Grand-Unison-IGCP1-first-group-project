@@ -19,7 +19,15 @@ body {
     flex-wrap: wrap;
 
 }
-
+.card-cover p {
+    font-family: gabriola;
+    font-size: 50px;
+    /* margin-left: 40px; */
+    text-align: center;
+}
+.fa-brand {
+    margin-top: 20px;
+}
 nav {
     display: flex;
     justify-content: space-around;
