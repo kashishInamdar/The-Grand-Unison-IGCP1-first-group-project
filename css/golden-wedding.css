@@ -106,7 +106,7 @@ nav ul {
  }
  
  .sub-container-m {
-    height: 450px;
+    height: 330px;
     width: 450px;
     /* background-color: white; */
     border-radius: 100px 0 100px 0;
@@ -128,7 +128,7 @@ nav ul {
 }
  
  .img-mehandi {
-    height: 450px;
+    height: 400px;
     width: 520px;
     /* align-items: center; */
     /* margin-left: 10px;
@@ -146,11 +146,13 @@ nav ul {
  .text-m {
     background: linear-gradient(to left, rgb(248, 148, 164) , rgb(240, 51, 51));
     color: white;
-    font-size: 30px;
-    font-family: 'Dancing Script', cursive;
-    padding: 10px;
+   font-family: 'Dancing Script', cursive;
+    padding: 40px;
     overflow: hidden;
     margin-left: 120px;
+ }
+ .text-m p {
+    font-size: 40px;
  }
  .text-m:hover {
     transform: scale(1.1);
@@ -169,6 +171,7 @@ nav ul {
     margin-left: 300px;
  }
  .main-container-m{
+    display: flex;
     flex-wrap: wrap;
  }
  
@@ -177,7 +180,7 @@ nav ul {
  }
  
  .img-m1 {
-    height: 450px;
+    height: 400px;
     width: 500px;
  }
  .img-m1:hover {
@@ -188,7 +191,7 @@ nav ul {
  }
  
  .text-m2 {
-    height: 450px;
+    height: 350px;
  }
  
  .img-card {
@@ -344,12 +347,18 @@ body
     height: 450px;
     width: 350px;
     margin-inline: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
     border: 1px solid #ff0066;
     padding: 10px;
     position: relative;
     border-radius: 10px;
     box-shadow: 0 0 5px 3px #ff99c2;
+}
+.cards:hover {
+    transform: scale(1.1);
+    border-radius: 30px;
+    transition: 1s;
+    box-shadow: 0 8px 12px 6px gray;
 }
 .cards a {
     text-decoration: none;
@@ -364,7 +373,7 @@ body
 }
 .card-title {
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 30px;
     /* font-family: Arial, Helvetica, sans-serif; */
     
@@ -372,7 +381,7 @@ body
 .btn {
     font-size: 18px;
     display: block;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     margin-right: auto;
     margin-left: auto;
     color: white;
@@ -381,6 +390,11 @@ body
     padding-block: 10px;
     border: none;
     border-radius: 10px;
+}
+.btn:hover {
+    box-shadow:0 5px 8px 5px gray;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .collage-div {
     display: flex;
@@ -640,3 +654,6 @@ footer {
 }
 
 /*Footer section End*/
+.prize02 {
+color: red;
+}
