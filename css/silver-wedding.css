@@ -299,6 +299,8 @@ body
     box-shadow: 0 0 5px 3px #ff99c2;
 }
 .img-hover {
+    display: flex;
+    flex-direction: row;
     height: 282px;
     width: 350px;
     margin-bottom: 25px;
