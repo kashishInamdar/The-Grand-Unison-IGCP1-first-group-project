@@ -312,10 +312,12 @@ footer {
     border-radius: 50%;
 }
 
-.fa-icon {
-    font-size: 20px;
+.font-fa {
+    font-size: 30px;
     color: white;
-    margin-right: 10px;
+    font-weight: bold;
+    margin-top: 55px;
+    margin-left: 20px;
 
 }
 
