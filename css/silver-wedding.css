@@ -232,7 +232,7 @@ body
     /* background-image: url("../images/bg-img.jpg"); */
     background: linear-gradient(to right,#ff9999, white);
     background-size: 170% 110%;
-    height: 450px;
+    height: 470px;
     width: 350px;
     margin-inline: 20px;
     margin-top: 10px;
@@ -241,6 +241,12 @@ body
     position: relative;
     border-radius: 10px;
     box-shadow: 0 0 5px 3px #ff99c2;
+}
+.cards:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 8px 12px 6px gray;
+    border-radius: 30px;
 }
 .cards a {
     text-decoration: none;
@@ -255,7 +261,7 @@ body
 }
 .card-title {
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 10px; */
     font-size: 30px;
     /* font-family: Arial, Helvetica, sans-serif; */
     
@@ -263,7 +269,7 @@ body
 .btn {
     font-size: 18px;
     display: block;
-    margin-top: 40px;
+    /* margin-top: 10px; */
     margin-right: auto;
     margin-left: auto;
     color: white;
@@ -539,3 +545,35 @@ footer {
 }
 
 /*Footer section End*/
+.mehandi-artist {
+display: flex;
+flex-direction: row;
+justify-content: center;
+background: linear-gradient(to left, rgb(220, 62, 136), rgb(215, 162, 162));
+
+}
+.mehandi-artist div {
+    /* vertical-align:middle; */
+   margin: 30px;
+    padding: 10px;
+}
+.artist-info {
+    text-align: center;
+    font-family: gabriola;
+    color: white;
+    font-size: 30px;
+}
+
+.artist-img {
+    margin-right: 10px;
+    height: 180px;
+    border-radius: 50%;
+}
+.prize02 {
+    color: red;
+}
+.btn:hover {
+    box-shadow:0 5px 8px 5px gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
